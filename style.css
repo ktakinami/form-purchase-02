@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: url('images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+}
+/* main container */
+.container {
+    text-align: center;
+    margin: 60px auto 0;
+    width: 235px;
+    height: 550px;
+    display: grid;
+    grid-template-rows: 4fr 1fr 5fr 1fr;
+}
+
+/* heading text area */
+.text-content h1 {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.text-content p {
+    font-size: 0.7em;
+}
+
+/* plan and form area */
+.plan-content {
+    width: 100%;
+}
+
+.plan-content p {
+    font-size: 0.8em;
+    padding: 12px 40px;
+    margin-bottom: 14px;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.plan-content p:hover {
+    background-color: hsl(248, 63%, 59%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.plan-content p:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+.form-content form {
+    padding-top: 10px;
+    
+}
+
+.form-content input, button {
+    width: 220px;
+    margin-bottom: 12px;
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+}
+
+.form-content input {
+    border: 1px solid rgba(144, 142, 142, 0.384);
+    font-weight: 600;
+    font-size: 0.6em;
+    color: black;
+}
+
+.form-content button {
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form-content button:hover {
+    background-color: hsl(154, 100%, 50%);
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-content button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form-content p {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.5em;
+    padding: 0 30px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+}
+
+.attribution {
+    font-size: 0.55em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* footer */
+/*footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
